@@ -75,7 +75,6 @@ export default function Sayac() {
       <h2>Sayaç</h2>
       <div id="sayici" style={stil}>
         Sayı {sayici} {/* ADIM 3  buraya*/ sayici % 2 === 0 ? "çift" : "tek"}
-        tir.
       </div>
       <div>
         <button id="artirici" onClick={artirici}>
